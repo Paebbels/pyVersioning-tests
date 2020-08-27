@@ -1,9 +1,17 @@
 # Use custom build commands
 build: off
 
+image: Visual Studio 2019
+
+environment:
+  matrix:
+    - PYTHON: "C:\Python37"
+    - PYTHON: "C:\Python38"
+
 init:
   - ps: Write-Host "Initializing virtual machine ..."
   - ps: git --version
+  - SET PATH=%PYTHON%;%path%
 
 install:
   - ps: Write-Host "Installing requirements..."
