@@ -11,10 +11,10 @@ environment:
 init:
   - ps: Write-Host "Initializing virtual machine ..."
   - ps: git --version
-  - SET PATH=%PYTHON%;%path%
 
 install:
   - ps: Write-Host "Installing requirements..."
+  - SET PATH=%PYTHON%;%path%
   - ps: python --version
   - ps: python -m pip install pip --upgrade
   - ps: python -m pip install -r .\requirements.txt
