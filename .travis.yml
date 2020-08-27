@@ -1,0 +1,14 @@
+language: python
+
+matrix:
+  include:
+    - env: CONFIG="Xenial,Python3.7"
+      python: "3.7"
+    - env: CONFIG="Xenial,Python3.8"
+      python: "3.8"
+
+install:
+  - pip3 install -r requirements.txt
+
+script:
+  - pyVersioning yaml
