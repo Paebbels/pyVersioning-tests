@@ -5,16 +5,17 @@ image: Visual Studio 2019
 
 environment:
   matrix:
-    - PYTHON: "C:\Python37"
-    - PYTHON: "C:\Python38"
+    - PYTHON: "Python37-x64"
+    - PYTHON: "Python38-x64"
 
 init:
   - ps: Write-Host "Initializing virtual machine ..."
   - ps: git --version
+  - ps: Write-Host $env:PYTHON
+  - ps: $env:Path = $env:Path.Replace("Python27", $env:PYTHON)
 
 install:
   - ps: Write-Host "Installing requirements..."
-  - SET PATH=%PYTHON%;%path%
   - ps: python --version
   - ps: python -m pip install pip --upgrade
   - ps: python -m pip install -r .\requirements.txt
