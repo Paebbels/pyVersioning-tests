@@ -1,0 +1,15 @@
+before_script:
+  - pip install -r requirements.txt
+
+pyVersioning-3.7:
+  image: python:3.7-slim-buster
+
+  script:
+    - pyVersioning yaml
+
+
+pyVersioning-3.8:
+  image: python:3.8-slim-buster
+
+  script:
+    - pyVersioning yaml
