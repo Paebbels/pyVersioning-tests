@@ -4,12 +4,12 @@ This repository is testing [pyVersioning](https://github.com/Paebbels/pyVersioni
 
 **Tested Platforms:**
 
-| Build Status | CI Service                                |
-| ------------ | ----------------------------------------- |
-| [![Build status](https://ci.appveyor.com/api/projects/status/08i2incivqoux0bv?svg=true)](https://ci.appveyor.com/project/Paebbels/pyversioning-tests) | AppVeyor                                  |
-|              | GitHub (Workflows)                        |
-| [![pipeline status](https://gitlab.com/paebbels/pyVersioning-test/badges/master/pipeline.svg)](https://gitlab.com/paebbels/pyVersioning-test/-/commits/master) | GitLab-CI (repository is mirrored to [gitlab.com](https://gitlab.com/paebbels/pyVersioning-test))    |
-| [![Travis](https://img.shields.io/travis/com/Paebbels/pyVersioning-tests?logo=Travis)](https://travis-ci.com/Paebbels/pyVersioning-tests) | Travis-CI |
+| Build Status | CI Service                                | Platform        |
+| ------------ | ----------------------------------------- | --------------- |
+| [![AppVeyor](https://img.shields.io/appveyor/build/Paebbels/pyVersioning-tests?logo=appveyor)](https://ci.appveyor.com/project/Paebbels/pyversioning-tests) | AppVeyor                                  | Windows Server (x86-64) |
+| [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Paebbels/pyVersioning-tests/Testing%20pyVersioning?logo=github)](https://github.com/Paebbels/pyVersioning-tests/actions?query=workflow%3A%22Testing+pyVersioning%22) | GitHub Workflow      | Ubuntu - latest (x86-64) |
+| [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/Paebbels/pyVersioning-tests/master?logo=gitlab)](https://gitlab.com/paebbels/pyVersioning-tests/-/pipelines) | GitLab-CI (repository is mirrored to [gitlab.com](https://gitlab.com/paebbels/pyVersioning-test))    | Debian - Buster (x86-64) |
+| [![Travis](https://img.shields.io/travis/com/Paebbels/pyVersioning-tests?logo=Travis)](https://travis-ci.com/Paebbels/pyVersioning-tests) | Travis-CI | Ubuntu - Xenial (x86-64) |
 
 
 ## Contributors
