@@ -1,1 +1,1 @@
-pyVersioning>=0.6.3
+pyVersioning>=0.7.0
