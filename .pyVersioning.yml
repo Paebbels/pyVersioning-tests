@@ -1,0 +1,10 @@
+version: 1
+project:
+  name: pyVersioning-tests
+  variant: default
+build:
+  compiler:
+    name: gcc
+    version: 9.2.1
+    configuration: debug
+    options: -g
