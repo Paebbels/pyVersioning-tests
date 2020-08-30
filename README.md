@@ -2,6 +2,10 @@
 
 This repository is testing [pyVersioning](https://github.com/Paebbels/pyVersioning) on several CI platforms.
 
+**Tested Commands:**
+1. `pyVersioning yaml`  
+   Report all gathered information in YAML format.
+
 **Tested Platforms:**
 
 | Build Status | CI Service                                | Platform        |
